@@ -16,6 +16,10 @@
 	}
 }
 
+.dropdown-item:hover {
+	background-color: #dc3545;
+}
+
 .form-signin-container {
 	display: flex;
 	align-items: center;
