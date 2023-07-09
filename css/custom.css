@@ -16,8 +16,20 @@
 	}
 }
 
+.bg-warning {
+	background-color: #fffae5!important;
+}
+
 .dropdown-item:hover {
 	background-color: #dc3545;
+}
+
+.card-body {
+	background-color: #fffae5 !important;
+}
+
+.background-light {
+	background-color: #fffae5 !important;
 }
 
 .form-signin-container {
@@ -25,7 +37,7 @@
 	align-items: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #f5f5f5;
+	background-color: #fffae5;
 }
 .form-signin {
 	width: 100%;
