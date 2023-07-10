@@ -106,10 +106,6 @@ footer>div#navbar-bottom-e {
 	background-color: #dc3545;
 }
 
-.card-body {
-	background-color: #fffae5 !important;
-}
-
 .background-light {
 	background-color: #fffae5 !important;
 }
@@ -119,7 +115,6 @@ footer>div#navbar-bottom-e {
 	align-items: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #fffae5;
 }
 
 .form-signin {
