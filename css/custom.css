@@ -79,10 +79,17 @@ footer>div#navbar-bottom-e {
 
 	.dropdown-menu .submenu-left {
 		right: 100%;
-		left: auto;
+		top: -7px;
 	}
 
-	.dropdown-menu>li:hover>.submenu {
+	.dropdown-menu .submenu-up {
+		left: 100%;
+		bottom: -7px;
+	}
+
+	.dropdown-menu>li:hover>.submenu,
+	.dropdown-menu>li:hover>.submenu-left,
+	.dropdown-menu>li:hover>.submenu-up {
 		display: block;
 	}
 }
@@ -109,6 +116,13 @@ footer>div#navbar-bottom-e {
 .background-light,
 li>.dropdown-menu {
 	background-color: #fffae5 !important;
+}
+
+.foreground-light,
+.form-control,
+input,
+textarea {
+	color: bisque !important;
 }
 
 .form-signin-container {
